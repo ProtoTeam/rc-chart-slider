@@ -4,9 +4,11 @@
   "description": "A react slider for chart",
   "main": "dist/index.js",
   "dependencies": {
-    "antd": "^3.3.3",
     "lodash": "^4.17.5",
-    "moment": "^2.21.0",
+    "moment": "^2.21.0"
+  },
+  "peerDependencies": {
+    "antd": "^3.3.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

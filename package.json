@@ -1,6 +1,6 @@
 {
   "name": "rc-chart-slider",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A react slider for chart",
   "main": "dist/index.js",
   "dependencies": {

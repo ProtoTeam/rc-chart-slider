@@ -16,6 +16,12 @@ const finalDrag = () =>
         };
       }
 
+      componentWillReceiveProps(nextProps) {
+        this.setState({
+          data: nextProps.data,
+        });
+      }
+
       finalDrag = params => {
         const { showStartPercent, showPercent } = params;
         this.setState({
